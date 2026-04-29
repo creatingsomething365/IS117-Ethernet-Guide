@@ -1,0 +1,28 @@
+/* DEVELOPER: Steven Martine, IS117-002, Spring 2026 */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+section, aside, .float-div {
+    float: left; 
+}
+
+img, .bg-dark {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+}
